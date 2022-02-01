@@ -427,6 +427,36 @@ img {
   background-color: #9900ff;
 }
 
+.alert-primary {
+  padding: 0.75rem;
+  background-color: #eef3fe;
+  color: #326dee;
+}
+
+.alert-secondary {
+  padding: 0.75rem;
+  background-color: #b8f6de;
+  color: #1ac886;
+}
+
+.alert-error {
+  padding: 0.75rem;
+  background-color: #f6d0d9;
+  color: #d32752;
+}
+
+.alert-info {
+  padding: 0.75rem;
+  background-color: #fef7e0;
+  color: #f6c31c;
+}
+
+.alert-blue {
+  padding: 0.75rem;
+  background-color: #d1d1fa;
+  color: #1919e6;
+}
+
 .p-0 {
   padding: 0;
 }
@@ -449,6 +479,10 @@ img {
 
 .m-1 {
   margin: 0.75rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
 }
 
 .ml-1 {

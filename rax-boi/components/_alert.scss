@@ -1,0 +1,11 @@
+@mixin alerts($bg-color: #e2e2e2) {
+  padding: $base-padding;
+  background-color: lighten($bg-color, 40%);
+  color: $bg-color;
+}
+
+@each $key, $val in $colors {
+  .alert-#{$key} {
+    @include alerts($val);
+  }
+}
