@@ -12,6 +12,7 @@
   "dependencies": {},
   "devDependencies": {
     "gulp": "^4.0.2",
+    "gulp-purgecss": "^4.1.3",
     "gulp-sass": "^5.1.0",
     "sass": "^1.49.0"
   }
