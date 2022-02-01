@@ -3626,6 +3626,73 @@ img {
   background-color: white;
 }
 
+.nav-bar .container, .nav-bar-white .container, .nav-bar-black .container, .nav-bar-gray .container, .nav-bar-purple .container, .nav-bar-orange .container, .nav-bar-green .container, .nav-bar-yellow .container, .nav-bar-red .container, .nav-bar-blue .container, .nav-bar-info .container, .nav-bar-error .container, .nav-bar-secondary .container, .nav-bar-primary .container, .nav-bar, .nav-bar-white, .nav-bar-black, .nav-bar-gray, .nav-bar-purple, .nav-bar-orange, .nav-bar-green, .nav-bar-yellow, .nav-bar-red, .nav-bar-blue, .nav-bar-info, .nav-bar-error, .nav-bar-secondary, .nav-bar-primary {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.nav-bar, .nav-bar-white, .nav-bar-black, .nav-bar-gray, .nav-bar-purple, .nav-bar-orange, .nav-bar-green, .nav-bar-yellow, .nav-bar-red, .nav-bar-blue, .nav-bar-info, .nav-bar-error, .nav-bar-secondary, .nav-bar-primary {
+  padding: 0.75rem 1.5rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-bar .site-title, .nav-bar-white .site-title, .nav-bar-black .site-title, .nav-bar-gray .site-title, .nav-bar-purple .site-title, .nav-bar-orange .site-title, .nav-bar-green .site-title, .nav-bar-yellow .site-title, .nav-bar-red .site-title, .nav-bar-blue .site-title, .nav-bar-info .site-title, .nav-bar-error .site-title, .nav-bar-secondary .site-title, .nav-bar-primary .site-title {
+  font-size: 1.5rem;
+}
+.nav-bar-primary {
+  background-color: #326dee;
+}
+
+.nav-bar-secondary {
+  background-color: #1ac886;
+}
+
+.nav-bar-error {
+  background-color: #d32752;
+}
+
+.nav-bar-info {
+  background-color: #f6c31c;
+}
+
+.nav-bar-blue {
+  background-color: #1919e6;
+}
+
+.nav-bar-red {
+  background-color: #e61919;
+}
+
+.nav-bar-yellow {
+  background-color: #e6e619;
+}
+
+.nav-bar-green {
+  background-color: #19e635;
+}
+
+.nav-bar-orange {
+  background-color: #ffa600;
+}
+
+.nav-bar-purple {
+  background-color: #9900ff;
+}
+
+.nav-bar-gray {
+  background-color: #808080;
+}
+
+.nav-bar-black {
+  background-color: black;
+}
+
+.nav-bar-white {
+  background-color: white;
+}
+
 .p-0 {
   padding: 0;
 }
