@@ -10,9 +10,9 @@ const purgecss = require('gulp-purgecss')
 function buildStyles() {
     return src('rax-boi/**/*.scss')
         .pipe(sass())
-        .pipe(purgecss({
-            content: ['*.html']
-        }))
+        // .pipe(purgecss({ only when use
+        //     content: ['*.html']
+        // }))
         .pipe(dest('css'))
 }
 
